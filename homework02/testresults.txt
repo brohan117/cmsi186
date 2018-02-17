@@ -1,0 +1,80 @@
+
+A TOTAL OF SIXTY-SEVEN TESTS TO CHECK OPERATION OF THE STRINGSTUFF CLASS METHODS
+
+FIFTEEN TESTS FOR containsVowel():
+   Test for all lowercase vowels: true
+   Test for all uppercase vowels: true
+   Test for detecting lowercase 'a': true
+   Test for detecting uppercase 'A': true
+   Test for detecting lowercase 'e': true
+   Test for detecting uppercase 'E': true
+   Test for detecting lowercase 'i': true
+   Test for detecting uppercase 'I': true
+   Test for detecting lowercase 'o': true
+   Test for detecting uppercase 'O': true
+   Test for detecting lowercase 'u': true
+   Test for detecting uppercase 'U': true
+   Test for detecting lowercase 'y': false
+   Test for detecting uppercase 'Y': false
+   Test for detecting there are none: false
+   Test for string containing numbers and symbols with 'a' at the end: true
+
+TEN TESTS FOR isPalindrome():
+   Testing 'a' should return true: true
+   Testing 'ab' should return false: true
+   Testing 'aba' should return true: false
+   Testing 'amanaplanacanalpanama' should return true: false
+   Testing 'ABBA' should return true: false
+   Testing 'RaCeCaR' should return true: false
+   Testing 'madamiamadam' should return false: false
+   Testing 'abcdefghigfedcba' should return false: false
+   Testing 'abcdefgh gfedcba' should return false: false
+   Testing '1!2@3#4$5%5$4#3@2!1' should return true: false
+
+NINE TESTS FOR evensOnly():
+   Testing 'REHEARSALSZ' should return RHRLZ: rhrldon't got it
+   Testing 'REhearSALsz' should return RhrLz: rhrldon't got it
+   Testing 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' should return BDFHJLNPRTVXZ: bdfhjlnprtvxdon't got it
+   Testing 'abcdefghijklmnopqrstuvwxyz' should return bdfhjlnprtvxz: bdfhjlnprtvxdon't got it
+   Testing 'AbCdEfGhIjKlMnOpQrStUvWxYz' should return bdfhjlnprtvxz: bdfhjlnprtvxdon't got it
+   Testing 'ACEGIKMOQSUWY' should return empty string: don't got it
+   Testing 'acegikmoqsuwy' should return empty string: don't got it
+   Testing empty string should return empty string: don't got it
+   Testing 'REhe12ar^^SALsz' should return RhrLz: rhrldon't got it
+
+NINE TESTS FOR oddsOnly():
+   Testing 'xylophones' should return yooes: yooedon't got it
+   Testing 'XYloPHonES' should return YooES: yooedon't got it
+   Testing 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' should return ACEGIKMOQSUWY: acegikmoqsuwydon't got it
+   Testing 'abcdefghijklmnopqrstuvwxyz' should return bdfhjlnprtvxz: acegikmoqsuwydon't got it
+   Testing 'AbCdEfGhIjKlMnOpQrStUvWxYz' should return bdfhjlnprtvxz: acegikmoqsuwydon't got it
+   Testing 'BDFHJLNPRTVXZ' should return empty string: don't got it
+   Testing 'bdfhjlnprtvxz' should return empty string: don't got it
+   Testing empty string should return empty string: don't got it
+   Testing 'xy$%lo23ph((on97es' should return yooes: yooedon't got it
+
+EIGHT TESTS FOR evensOnlyNoDupes():
+   Testing 'xylophones' should return xlphn: xlphndon't got it
+   Testing 'XYloPHonES' should return XlPHn: xlphndon't got it
+   Testing 'AAAABBBBAAAA' should return B: bdon't got it
+   Testing 'shshshshshshshsh' should return h: hdon't got it
+   Testing 'AAbbAAbbCCddCCdd' should return bd: bddon't got it
+   Testing empty string should return empty string: don't got it
+   Testing 'California' should return lfrn: lfrndon't got it
+   Testing 'ACEGIKMOQSUWYACEGIKMOQSUWY' should return the empty string: don't got it
+
+EIGHT TESTS FOR oddsOnlyNoDupes():
+   Testing 'xylophones' should return yoes: yoedon't got it
+   Testing 'XYloPHonES' should return YoES: yoedon't got it
+   Testing 'AAAABBBBAAAA' should return A: adon't got it
+   Testing 'shshshshshshshsh' should return h: sdon't got it
+   Testing 'AAbbAAbbCCddCCdd' should return bd: acdon't got it
+   Testing empty string should return empty string: don't got it
+   Testing 'California' should return aio: caiodon't got it
+   Testing 'BDFHJLNPRTVXBDFHJLNPRTVX' should return the empty string: don't got it
+
+FOUR TESTS FOR reverse():
+   Testing 'xylophones' should return senohpolyx: senohpolyxdon't got it
+   Testing 'XYloPHonES' should return SEnoHPolYX: SEnoHPolYXdon't got it
+   Testing 'AmanAplanAcAnalpAnamA' should return AmanAplanAcAnalpAnamA: AmanAplanAcAnalpAnamAdon't got it
+   Testing 'shut the front door 1234567890' should return 0987654321 rood tnorf eht tuhs: 0987654321 rood tnorf eht tuhsdon't got it
