@@ -47,23 +47,23 @@ public class DiceSet {
    * @note   parameters are checked for validity; invalid values throw "IllegalArgumentException"
    */
    public DiceSet( int count, int sides ) {
-     try{
-     if(count < 1 || sides < 4){
-       throw new IllegalArgumentException("Enter a valid count and valid number of sides : ");
-     }
-   }
-   catch (Exception e){
-     System.err.println("Value(s) entered is/are not valid.");
-   }
-     this.count = count;
-     this.sides = sides;
-     this.dieArray = new Die[count];
-     int i = 0;
-     while (i < count){
-       Die a = new Die(sides);
-       this.dieArray[i] = a;
-       i = i + 1;
-     }
+      try{
+         if(count < 1 || sides < 4){
+            throw new IllegalArgumentException("Enter a valid count and valid number of sides : ");
+         }
+      }
+      catch (Exception e){
+         System.err.println("Value(s) entered is/are not valid.");
+      }
+      this.count = count;
+      this.sides = sides;
+      this.dieArray = new Die[count];
+      int i = 0;
+      while (i < count){
+         Die a = new Die(sides);
+         this.dieArray[i] = a;
+         i = i + 1;
+      }
    }
 
   /**
