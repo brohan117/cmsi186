@@ -1,0 +1,21 @@
+Enter an angle: 
+Enter a time split (enter 0 if there's no time split): 
+The clock's hands are at 30.0 degrees at these times:
+1:0:0.0
+1:11:0.0
+2:16:0.0
+3:11:0.0
+3:22:0.0
+4:16:0.0
+4:27:0.0
+5:22:0.0
+5:33:0.0
+6:27:0.0
+6:38:0.0
+7:33:0.0
+7:44:0.0
+8:38:0.0
+8:49:0.0
+9:44:0.0
+10:49:0.0
+11:0:0.0

@@ -1,0 +1,51 @@
+
+Evaluation for homework 04: Clock Solver
+
+Clock and ClockSolver programs
+Includes running Clock main to observe tests
+Includes running automated ClockSolver tests
+   View testH$4.bat to see test parameters used
+===============================================
+
+A total of one point each for the following:
+
+class Clock             : Exists, coding style acceptable   -  1 point
+Constructor             : Freebie, since not really needed  -  1 point
+tick                    : works                             -  1 point
+getHourHandAngle        : works                             -  1 point
+getMinuteHandAngle      : works                             -  1 point
+getHandAngle            : works                             -  1 point
+getTotalSeconds         : works                             -  1 point
+toString                : works                             -  1 point
+main exists             : Exists                            -  1 point
+Test Code               : Contains some method test code    -  1 point
+
+class ClockSolver       : Exists, coding style acceptable   -  1 point
+Constructor             : Exists, works properly            -  1 point
+HandleInitialArguments  : works                             -  0 point (0/7)
+   incorrect operation; required to handle arguments from command line
+
+main exists             : works                             -  1 point
+works as advertised     : passes all tests in the series    -  4.5 points
+   incorrect operation; required to handle arguments from command line
+
+Files in Git            : two files required                -  2 points
+Coding Style overall    : coding style acceptable           -  1 point
+
+
+Total 20.50 out of 27 = 75.93% which is a C
+
+
+
+I specifically said on the assignment requirements page that you need to
+take the values from the command line.  I said this again several times
+in class as well.
+
+This means you only get 1/2 credit for the program, even when the values
+produced are correct.  In addition, there is no convenient way for me to
+redirect the output to the testresults.txt file, since I have to see the
+prompts to know what to input and when.
+
+In future, please try to follow the requirements.  If you have any questions
+or wish to discuss, feel free to come see me during office hours or make an
+appointment on my youcanbookme site.
