@@ -1,0 +1,79 @@
+.                                       
+.                                       
+======================================  
+... Testing Ball class ...              
+======================================  
+x value of a: 1.0
+y value of a: 2.0
+xSpeed value of a: 3.0
+ySpeed value of a: 4.0
+ 
+x value of b: 5.0
+y value of b: 6.0
+xSpeed value of b: 7.0
+ySpeed value of b: 8.0
+ 
+x value of c: -1.0
+y value of c: -2.5
+xSpeed value of c: 0.0
+ySpeed value of c: -7.0
+Radius value of c: 4.45
+ 
+x value of d: 123.45
+y value of d: 234.5
+xSpeed value of d: 3.45
+ySpeed value of d: 4.5
+Radius value of d: 4.45
+ 
+x value of e: 77.0
+y value of e: -77.0
+xSpeed value of e: 77.0
+ySpeed value of e: -77.0
+Radius value of e: 4.45
+ 
+Collision between ball number 3 and the flagpole
+Collision with a flag at position 0,0: true
+Collision with a flag at position 0,0: false
+Collision between ball number 3 and the flagpole
+Collision with a flag at position 0,0: true
+ 
+Collision between ball number 3 and ball number 4
+Verify Collision between more than 2 balls: true
+Verify Collision between more than 2 balls: false
+Verify Collision between more than 2 balls: false
+Collision between ball number 1 and ball number 3
+Verify Collision between more than 2 balls: true
+Collision between ball number 3 and ball number 4
+Verify Collision between more than 2 balls: true
+ 
+Update xList & yList test (timeSplit = 3):
+Initial xList: [1.0, 5.0, -1.0, 123.45, 77.0]
+Updated xList: [9.9103, 25.7907, -1.0, 133.69684500000002, 305.69770000000005]
+Initial yList: [2.0, 6.0, -2.5, 234.5, -77.0]
+Updated yList: [13.880400000000002, 29.760800000000003, -23.2907, 247.86545, -305.69770000000005]
+ 
+Max speed: 200.0
+Max speed: 200.0
+Max speed: 167.0
+Max speed: 134.0
+Max speed: 123.0
+.                                       
+.                                       
+.                                       
+.                                       
+======================================  
+... Testing Clock class ...                
+======================================  
+15.0
+180.0
+165.0
+12
+33
+0.0
+4.125
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim no args...        
+======================================  
+How many soccer balls are on the field? 
